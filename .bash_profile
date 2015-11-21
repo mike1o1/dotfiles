@@ -43,7 +43,9 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 # ^ the only downside with this is [up] on the readline will go over all history not just this bash session.
 
+export EDITOR=vim
 
+export ANSIBLE_HOSTS=/etc/ansible/hosts
 
 ##
 ## hooking in other apps…
